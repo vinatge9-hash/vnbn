@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:300,400,500,600,700&family=Playfair+Display:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>AuroraBean Coffeehouse - Blog</title>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: {} },
+      fontFamily: {
+        'playfair': ['', 'serif'],
+        'lato': ['', 'sans-serif']
+      }
+    }
+  </script>
+</head>
+<body style="font-family: 'Lato', sans-serif;" class='min-h-screen bg-[#F6F0E7] text-[#3b2a25] font-lato'>
+  <header class='w-full sticky top-0 z-50 bg-white/90 shadow'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between'>
+      <div class='flex items-center space-x-3'>
+        <span class='font-playfair text-2xl text-[#3b2a25]'>AuroraBean</span>
+        <span class='text-[#C2691D] text-sm'>Blog</span>
+      </div>
+      <ul class='hidden md:flex items-center space-x-6 text-sm'>
+        <li><a href='index.html' class='hover:text-[#6F4E37]'>Home</a></li>
+        <li><a href='menu.html' class='hover:text-[#6F4E37]'>Menu</a></li>
+        <li><a href='about.html' class='hover:text-[#6F4E37]'>About</a></li>
+        <li><a href='locations.html' class='hover:text-[#6F4E37]'>Locations</a></li>
+        <li><a href='gallery.html' class='hover:text-[#6F4E37]'>Gallery</a></li>
+        <li><a href='blog.html' class='hover:text-[#6F4E37]'>Blog</a></li>
+        <li><a href='contact.html' class='bg-[#6F4E37] text-white px-3 py-2 rounded'>Visit/Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Blog -->
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h2 class='font-playfair text-3xl mb-6' style='color:#6F4E37'>Latest Posts</h2>
+      <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <article class='border border-[#E5D6C8] rounded p-4'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center mb-3'>https://images.pexels.com/photos/19813743/pexels-photo-19813743.jpeg?auto=compress&cs=tinysrgb&h=650&w=940</div>
+          <h3 class='font-playfair text-lg'>Exploring Seasonal Flavors</h3>
+          <p class='text-sm text-[#555]'>A look at how we craft seasonal drinks with local ingredients.</p>
+        </article>
+        <article class='border border-[#E5D6C8] rounded p-4'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center mb-3'>https://pixabay.com/get/gf9313ca1bd69f921b96262838f819bdf76459ea086af2ab19f16ce22ef320ce83d8ab311e4e7f6fedac301294b67d5d3_640.jpg</div>
+          <h3 class='font-playfair text-lg'>A Guide to Bean Origins</h3>
+          <p class='text-sm text-[#555]'>Understanding the journey from farm to cup.</p>
+        </article>
+        <article class='border border-[#E5D6C8] rounded p-4'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center mb-3'>https://source.unsplash.com/random/1600x900/?blog,post,3</div>
+          <h3 class='font-playfair text-lg'>Behind Latte Art</h3>
+          <p class='text-sm text-[#555]'>Techniques for creating stunning designs at home.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories & Tags + Newsletter -->
+  <section class='py-6 bg-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='grid grid-cols-1 md:grid-cols-2 gap-6'>
+        <div>
+          <div class='font-playfair text-xl mb-2' style='color:#6F4E37'>Categories</div>
+          <div class='flex flex-wrap gap-2'>
+            <span class='px-2 py-1 border border-[#E5D6C8] rounded'>Seasonal</span>
+            <span class='px-2 py-1 border border-[#E5D6C8] rounded'>Brews</span>
+            <span class='px-2 py-1 border border-[#E5D6C8] rounded'>Tips</span>
+          </div>
+        </div>
+        <div>
+          <div class='font-playfair text-xl mb-2' style='color:#6F4E37'>Newsletter</div>
+          <form class='flex'>
+            <input class='flex-1 border border-[#E5D6C8] rounded-l px-3 py-2' placeholder='Email address'>
+            <button class='bg-[#6F4E37] text-white px-4 py-2 rounded-r'>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class='bg-[#6F4E37] text-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6'>
+      <div class='flex flex-col md:flex-row items-center justify-between gap-4'>
+        <div class='font-playfair text-xl'>AuroraBean</div>
+        <div class='text-sm'>© 2025 AuroraBean Coffeehouse</div>
+        <div class='text-sm'>Follow us: https://images.pexels.com/photos/5081926/pexels-photo-5081926.jpeg?auto=compress&cs=tinysrgb&h=650&w=940</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
