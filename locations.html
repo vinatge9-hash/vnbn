@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:300,400,500,600,700&family=Playfair+Display:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>AuroraBean Coffeehouse - Locations</title>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: {} },
+      fontFamily: {
+        'playfair': ['', 'serif'],
+        'lato': ['', 'sans-serif']
+      }
+    }
+  </script>
+</head>
+<body style="font-family: 'Lato', sans-serif;" class='min-h-screen bg-[#F6F0E7] text-[#3b2a25] font-lato'>
+  <header class='w-full sticky top-0 z-50 bg-white/90 shadow'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between'>
+      <div class='flex items-center space-x-3'>
+        <span class='font-playfair text-2xl text-[#3b2a25]'>AuroraBean</span>
+        <span class='text-[#C2691D] text-sm'>Locations</span>
+      </div>
+      <ul class='hidden md:flex items-center space-x-6 text-sm'>
+        <li><a href='index.html' class='hover:text-[#6F4E37]'>Home</a></li>
+        <li><a href='menu.html' class='hover:text-[#6F4E37]'>Menu</a></li>
+        <li><a href='about.html' class='hover:text-[#6F4E37]'>About</a></li>
+        <li><a href='locations.html' class='hover:text-[#6F4E37]'>Locations</a></li>
+        <li><a href='gallery.html' class='hover:text-[#6F4E37]'>Gallery</a></li>
+        <li><a href='blog.html' class='hover:text-[#6F4E37]'>Blog</a></li>
+        <li><a href='contact.html' class='bg-[#6F4E37] text-white px-3 py-2 rounded'>Visit/Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Store Locator Map -->
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h2 class='font-playfair text-3xl mb-4' style='color:#6F4E37'>Store Locator</h2>
+      <div class='w-full h-64 bg-[#F0E6DA] border border-[#E5D6C8] flex items-center justify-center'>
+        https://images.unsplash.com/photo-1511526088318-f1a6d7646a05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxMHx8c3RvcmUlMjBsb2NhdG9yJTIwbWFwfGVufDB8MHx8fDE3NjA2MjQ5MTF8MA&ixlib=rb-4.1.0&q=80&w=1080
+      </div>
+    </div>
+  </section>
+
+  <!-- Address & Hours -->
+  <section class='py-6'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-6'>
+      <div class='p-4 border border-[#E5D6C8] rounded'>
+        <div class='font-semibold mb-2'>Address</div>
+        <div>123 Dawn Way, Sunrise City, ST 00000</div>
+      </div>
+      <div class='p-4 border border-[#E5D6C8] rounded'>
+        <div class='font-semibold mb-2'>Hours</div>
+        <div>Mon–Fri: 7am–6pm<br>Sat–Sun: 8am–5pm</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pickup & Dine-In -->
+  <section class='py-6'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='grid grid-cols-1 md:grid-cols-2 gap-6'>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='font-semibold mb-2'>Pickup</div>
+          <div>Order ahead and pick up at the counter</div>
+        </div>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='font-semibold mb-2'>Dine-In</div>
+          <div>Cozy seating with free Wi-Fi</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class='py-6'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between'>
+      <span>Need directions or online ordering?</span>
+      <a href='menu.html' class='bg-[#6F4E37] text-white px-4 py-2 rounded'>View Menu</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class='bg-[#6F4E37] text-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6'>
+      <div class='flex flex-col md:flex-row items-center justify-between gap-4'>
+        <div class='font-playfair text-xl'>AuroraBean</div>
+        <div class='text-sm'>123 Dawn Way, Sunrise City</div>
+        <div class='text-sm'>Open daily 7am–6pm</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
