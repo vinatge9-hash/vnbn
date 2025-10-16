@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:300,400,500,600,700&family=Playfair+Display:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>AuroraBean Coffeehouse - Home</title>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            // palette kept for reference; actual styling uses arbitrary values for exact theme colors
+          }
+        }
+      },
+      fontFamily: {
+        'playfair': ['', 'serif'],
+        'lato': ['', 'sans-serif']
+      }
+    }
+  </script>
+</head>
+<body style="font-family: 'Lato', sans-serif;" class='min-h-screen bg-[#F6F0E7] text-[#3b2a25] font-lato'>
+  <!-- Navigation -->
+  <header class='w-full sticky top-0 z-50 bg-white/90 backdrop-blur shadow'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16'>
+      <div class='flex items-center space-x-3'>
+        <span class='font-playfair text-2xl text-[#3b2a25]'>AuroraBean</span>
+        <span class='text-[#C2691D] text-sm'>Coffeehouse</span>
+      </div>
+      <ul class='hidden md:flex items-center space-x-6 text-sm'>
+        <li><a href='index.html' class='hover:text-[#6F4E37]'>Home</a></li>
+        <li><a href='menu.html' class='hover:text-[#6F4E37]'>Menu</a></li>
+        <li><a href='about.html' class='hover:text-[#6F4E37]'>About</a></li>
+        <li><a href='locations.html' class='hover:text-[#6F4E37]'>Locations</a></li>
+        <li><a href='gallery.html' class='hover:text-[#6F4E37]'>Gallery</a></li>
+        <li><a href='blog.html' class='hover:text-[#6F4E37]'>Blog</a></li>
+        <li><a href='contact.html' class='bg-[#6F4E37] text-white px-3 py-2 rounded'>Visit/Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class='pt-8 pb-16'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center'>
+        <div>
+          <h1 class='font-playfair text-4xl sm:text-5xl lg:text-6xl font-bold mb-4' style='color:#6F4E37'>AuroraBean Coffeehouse</h1>
+          <p class='text-lg mb-6'>Where expertly crafted coffees meet a warm, inviting atmosphere. Savor artisanal pastries and slow-grown flavors crafted for moments of connection.</p>
+          <a href='menu.html' class='inline-block bg-[#6F4E37] text-white px-5 py-3 rounded shadow hover:bg-[#4b3a2a] transition'>Order Online</a>
+        </div>
+        <div class='flex items-center justify-center'>
+          <div class='w-full h-72 bg-white border border-[#E5D6C8] rounded-lg flex items-center justify-center'>
+            https://images.unsplash.com/photo-1727591654753-987abf4326fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw1fHxoZXJvJTIwYmFubmVyJTIwc2hvd2luZyUyMGNvenklMjBjYWZlJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc2MDYyNDg4OXww&ixlib=rb-4.1.0&q=80&w=1080
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro/Welcome -->
+  <section class='bg-white py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='grid grid-cols-1 md:grid-cols-2 gap-8 items-center'>
+        <div class='space-y-4'>
+          <h2 class='font-playfair text-2xl' style='color:#6F4E37'>Welcome to AuroraBean</h2>
+          <p>We invite you to pause, sip thoughtfully, and enjoy a moment in our sunlit cafe. From single-origin pour-overs to velvety lattes, every cup is crafted with care.</p>
+        </div>
+        <div class='flex items-center justify-center'>
+          <div class='w-full h-48 bg-[#EEE4D6] border border-[#E5D6C8] rounded'>
+            https://images.pexels.com/photos/17431220/pexels-photo-17431220.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Beverages -->
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-playfair text-2xl mb-6' style='color:#6F4E37'>Featured Beverages</h3>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <div class='rounded-lg border border-[#E5D6C8] p-4'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-2'>
+            https://pixabay.com/get/gba3d738a67461cea8073c2f7a0daa96379e5944a25086def7326c9da858ce8c3a179d199659615e96fb63976605f7e4c7e293735a9557c3cd5b0b2a3ca8e1340_640.jpg
+          </div>
+          <div class='text-lg font-semibold'>Aurora Latte</div>
+          <div class='text-sm text-[#555]'>Espresso, milk, vanilla, caramel drizzle</div>
+        </div>
+        <div class='rounded-lg border border-[#E5D6C8] p-4'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-2'>
+            https://images.pexels.com/photos/960540/pexels-photo-960540.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+          </div>
+          <div class='text-lg font-semibold'>Molten Mocha</div>
+          <div class='text-sm text-[#555]'>Rich cocoa, almond milk, whipped cream</div>
+        </div>
+        <div class='rounded-lg border border-[#E5D6C8] p-4'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-2'>
+            https://images.unsplash.com/photo-1759473900010-0f572e3774d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMHdpdGglMjBjaXRydXN8ZW58MHwwfHx8MTc2MDYyNDg5Mnww&ixlib=rb-4.1.0&q=80&w=1080
+          </div>
+          <div class='text-lg font-semibold'>Citrus Cold Brew</div>
+          <div class='text-sm text-[#555]'>Cold brew, orange zest, ice</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seasonal Specials -->
+  <section class='bg-white py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-playfair text-2xl mb-6' style='color:#6F4E37'>Seasonal Specials</h3>
+      <div class='grid grid-cols-1 md:grid-cols-2 gap-6'>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F3E6D8] flex items-center justify-center rounded mb-3'>https://images.unsplash.com/photo-1672202153696-25ac83a55b89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw2fHxwdW1wa2luJTIwc3BpY2UlMjBsYXR0ZXxlbnwwfDB8fHwxNzYwNjI0ODkzfDA&ixlib=rb-4.1.0&q=80&w=1080</div>
+          <div class='font-semibold'>Pumpkin Spice Latte</div>
+          <div class='text-sm text-[#555]'>Creamy pumpkin, spice blend, whipped cream</div>
+        </div>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F3E6D8] flex items-center justify-center rounded mb-3'>https://images.unsplash.com/photo-1664793678025-21bb2d47c2a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw1fHxtYXBsZSUyMGNpbm5hbW9uJTIwbGF0dGV8ZW58MHwwfHx8MTc2MDYyNDg5NHww&ixlib=rb-4.1.0&q=80&w=1080</div>
+          <div class='font-semibold'>Maple Cinnamon Latte</div>
+          <div class='text-sm text-[#555]'>Warm maple sweetness, cinnamon touch</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upcoming Events -->
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-playfair text-2xl mb-6' style='color:#6F4E37'>Upcoming Events</h3>
+      <ul class='space-y-4'>
+        <li class='p-4 border border-[#E5D6C8] rounded'>
+          <strong>Latte Art Workshop</strong> · <span class='text-sm text-[#555]'>Sat, 2 PM</span>
+        </li>
+        <li class='p-4 border border-[#E5D6C8] rounded'>
+          <strong>Sunday Acoustic Brunch</strong> · <span class='text-sm text-[#555]'>Sun, 11 AM</span>
+        </li>
+        <li class='p-4 border border-[#E5D6C8] rounded'>
+          <strong>Roast & Tell</strong> · <span class='text-sm text-[#555]'>Fri, 6 PM</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Customer Testimonials -->
+  <section class='bg-white py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-playfair text-2xl mb-6' style='color:#6F4E37'>What our guests say</h3>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <blockquote class='p-4 border border-[#E5D6C8] rounded'>
+          <p>"The ambiance is warm and the coffee is exceptional. A perfect start to my day."</p>
+          <footer class='mt-2 text-sm'>- Jamie</footer>
+        </blockquote>
+        <blockquote class='p-4 border border-[#E5D6C8] rounded'>
+          <p>"Amazing pastries and friendly staff. Highly recommend the Aurora Latte."</p>
+          <footer class='mt-2 text-sm'>- Priya</footer>
+        </blockquote>
+        <blockquote class='p-4 border border-[#E5D6C8] rounded'>
+          <p>"Cozy, inviting, and delicious coffee every time."</p>
+          <footer class='mt-2 text-sm'>- Marcus</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='grid grid-cols-1 md:grid-cols-2 gap-6 items-center'>
+        <div>
+          <h4 class='font-playfair text-xl' style='color:#6F4E37'>Join our newsletter</h4>
+          <p>Get seasonal updates, events, and exclusive offers straight to your inbox.</p>
+        </div>
+        <form class='flex flex-col sm:flex-row items-center'>
+          <input type='email' placeholder='Enter your email' class='w-full sm:flex-1 px-4 py-3 border border-[#E5D6C8] rounded mb-2 sm:mb-0 sm:mr-2' />
+          <button class='w-full sm:w-auto bg-[#6F4E37] text-white px-5 py-3 rounded'>Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class='bg-[#6F4E37] text-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 md:grid-cols-3 gap-6'>
+      <div>
+        <div class='font-playfair text-xl mb-2'>AuroraBean</div>
+        <div>123 Dawn Way, Suite 100<br>Sunrise City, ST 00000</div>
+      </div>
+      <div>
+        <div class='mb-2 font-semibold'>Hours</div>
+        <div>Mon–Fri: 7am–6pm<br>Sat–Sun: 8am–5pm</div>
+      </div>
+      <div>
+        <div class='mb-2 font-semibold'>Follow</div>
+        <div class='flex space-x-3'>
+          <span aria-label='instagram'>https://images.pexels.com/photos/31148083/pexels-photo-31148083.jpeg?auto=compress&cs=tinysrgb&h=650&w=940</span>
+          <span aria-label='facebook'>https://images.unsplash.com/photo-1611162616475-46b635cb6868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxMHx8ZmFjZWJvb2slMjBpY29ufGVufDB8MHx8fDE3NjA2MjQ4OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080</span>
+          <span aria-label='twitter'>https://images.unsplash.com/photo-1660303238885-c9853ddb6feb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHx0d2l0dGVyJTIwaWNvbnxlbnwwfDB8fHwxNzYwNjI0ODk3fDA&ixlib=rb-4.1.0&q=80&w=1080</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
