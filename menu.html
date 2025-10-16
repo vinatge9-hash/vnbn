@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:300,400,500,600,700&family=Playfair+Display:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>AuroraBean Coffeehouse - Menu</title>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {}
+      },
+      fontFamily: {
+        'playfair': ['', 'serif'],
+        'lato': ['', 'sans-serif']
+      }
+    }
+  </script>
+</head>
+<body style="font-family: 'Lato', sans-serif;" class='min-h-screen bg-[#F6F0E7] text-[#3b2a25] font-lato'>
+  <header class='w-full sticky top-0 z-50 bg-white/90 shadow'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between'>
+      <div class='flex items-center space-x-3'>
+        <span class='font-playfair text-2xl text-[#3b2a25]'>AuroraBean</span>
+        <span class='text-[#C2691D] text-sm'>Menu</span>
+      </div>
+      <ul class='hidden md:flex items-center space-x-6 text-sm'>
+        <li><a href='index.html' class='hover:text-[#6F4E37]'>Home</a></li>
+        <li><a href='menu.html' class='hover:text-[#6F4E37]'>Menu</a></li>
+        <li><a href='about.html' class='hover:text-[#6F4E37]'>About</a></li>
+        <li><a href='locations.html' class='hover:text-[#6F4E37]'>Locations</a></li>
+        <li><a href='gallery.html' class='hover:text-[#6F4E37]'>Gallery</a></li>
+        <li><a href='blog.html' class='hover:text-[#6F4E37]'>Blog</a></li>
+        <li><a href='contact.html' class='bg-[#6F4E37] text-white px-3 py-2 rounded'>Visit/Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero/Intro -->
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h1 class='font-playfair text-3xl sm:text-4xl mb-2' style='color:#6F4E37'>Our Menu</h1>
+      <p>Explore a curated list of coffees, espressos, teas, and pastries crafted to brighten your day.</p>
+    </div>
+  </section>
+
+  <!-- Drinks by Category -->
+  <section class='py-8'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-3'>https://images.unsplash.com/photo-1568933752435-177b9491f1ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw3fHxjb2ZmZWUlMjBjYXRlZ29yeSUyMGljb258ZW58MHwwfHx8MTc2MDYyNDg5OHww&ixlib=rb-4.1.0&q=80&w=1080</div>
+          <div class='font-semibold'>Coffee</div>
+          <div class='text-sm text-[#555]'>Drip, pour-over, and signature blends</div>
+        </div>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-3'>https://images.pexels.com/photos/34315406/pexels-photo-34315406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940</div>
+          <div class='font-semibold'>Espresso</div>
+          <div class='text-sm text-[#555]'>Ristretto, lungo, and specialty shots</div>
+        </div>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-3'>https://images.unsplash.com/photo-1650211579019-22c2ded138d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw2fHx0ZWElMjBjYXRlZ29yeSUyMGljb258ZW58MHwwfHx8MTc2MDYyNDkwMHww&ixlib=rb-4.1.0&q=80&w=1080</div>
+          <div class='font-semibold'>Tea</div>
+          <div class='text-sm text-[#555]'>Herbal, black, and green varieties</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pastries & Bites -->
+  <section class='py-8 bg-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-playfair text-2xl mb-4' style='color:#6F4E37'>Pastries & Bites</h3>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F3E5D7] flex items-center justify-center rounded mb-3'>https://images.pexels.com/photos/792404/pexels-photo-792404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940</div>
+          <div class='font-semibold'>Butter Croissant</div>
+          <div class='text-sm text-[#555]'>Flaky and warm with a touch of vanilla</div>
+        </div>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F3E5D7] flex items-center justify-center rounded mb-3'>https://pixabay.com/get/gea07e7d912027039eec104ebb377266ded71f4352590977ca727521ed2bf9a2584ddb3d25d55daa0982a51316b39bd2ef13fc08951c99ed60c8486527dcb5562_640.jpg</div>
+          <div class='font-semibold'>Almond Danish</div>
+          <div class='text-sm text-[#555]'>Sugared glaze and almond crunch</div>
+        </div>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F3E5D7] flex items-center justify-center rounded mb-3'>https://images.unsplash.com/photo-1611678849233-6715cbb56e4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHxibHVlYmVycnklMjBtdWZmaW58ZW58MHwwfHx8MTc2MDYyNDkwM3ww&ixlib=rb-4.1.0&q=80&w=1080</div>
+          <div class='font-semibold'>Blueberry Muffin</div>
+          <div class='text-sm text-[#555]'>Sun-kissed berries, soft crumb</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seasonal Specials -->
+  <section class='py-8'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-playfair text-2xl mb-4' style='color:#6F4E37'>Seasonal Specials</h3>
+      <div class='grid grid-cols-1 md:grid-cols-2 gap-6'>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-3'>https://images.pexels.com/photos/3309626/pexels-photo-3309626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940</div>
+          <div class='font-semibold'>Winter Citrus Espresso</div>
+          <div class='text-sm text-[#555]'>Bright citrus notes with a warming espresso</div>
+        </div>
+        <div class='p-4 border border-[#E5D6C8] rounded'>
+          <div class='h-40 bg-[#F0E6DA] flex items-center justify-center rounded mb-3'>https://pixabay.com/get/gbfe8bd520fe99d6f172046d5747548c7db35da99a11529c57b3bd01507ce9d91a97f2e91465c3e199f400b678d0f653a8a84e591c2c9e8d2ae9ee81b40aa0a24_640.jpg</div>
+          <div class='font-semibold'>Honey Lavender Refresher</div>
+          <div class='text-sm text-[#555]'>Floral, light, and refreshing</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prices -->
+  <section class='py-6 bg-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-playfair text-2xl mb-4' style='color:#6F4E37'>Prices</h3>
+      <div class='overflow-x-auto'>
+        <table class='min-w-full divide-y divide-[#E5D6C8]'>
+          <thead>
+            <tr class='bg-[#F3EDE4]'>
+              <th class='px-6 py-3 text-left text-xs font-semibold'>Item</th>
+              <th class='px-6 py-3 text-left text-xs font-semibold'>Size</th>
+              <th class='px-6 py-3 text-left text-xs font-semibold'>Price</th>
+            </tr>
+          </thead>
+          <tbody class='divide-y divide-[#E5D6C8]'>
+            <tr>
+              <td class='px-6 py-3'>Classic Coffee</td>
+              <td class='px-6 py-3'>8 oz</td>
+              <td class='px-6 py-3'>$3.50</td>
+            </tr>
+            <tr>
+              <td class='px-6 py-3'>Aurora Latte</td>
+              <td class='px-6 py-3'>12 oz</td>
+              <td class='px-6 py-3'>$4.75</td>
+            </tr>
+            <tr>
+              <td class='px-6 py-3'>Seasonal Beverage</td>
+              <td class='px-6 py-3'>12 oz</td>
+              <td class='px-6 py-3'>$5.25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters (caffeine, dairy) -->
+  <section class='py-6'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='flex flex-wrap gap-3'>
+        <select class='border border-[#E5D6C8] rounded px-3 py-2'>
+          <option>Caffeine Level</option>
+          <option>Decaf</option>
+          <option>Regular</option>
+        </select>
+        <select class='border border-[#E5D6C8] rounded px-3 py-2'>
+          <option>Dairy</option>
+          <option>Milk</option>
+          <option>Non-dairy</option>
+        </select>
+        <button class='ml-auto bg-[#6F4E37] text-white px-4 py-2 rounded'>Reset Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA: Order Online -->
+  <section class='py-6'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between'>
+      <div class='font-playfair text-xl' style='color:#6F4E37'>Ready to order?</div>
+      <a href='menu.html' class='bg-[#6F4E37] text-white px-5 py-3 rounded'>Order Online</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class='bg-[#6F4E37] text-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6'>
+      <div class='flex flex-col md:flex-row items-center justify-between gap-4'>
+        <div class='font-playfair text-xl'>AuroraBean</div>
+        <div class='text-sm'>123 Dawn Way, Sunrise City</div>
+        <div class='text-sm'>Open daily 7am–6pm</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
